@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Inconsolata:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"> <!-- icon -->
     <link rel="stylesheet" href="style.css">
     <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -14,12 +16,18 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<button id="policeBtn1" class="hidden police2">Change police</button>
+
 <div id="heading" class="police1" contenteditable="true"></div>
 
 <div id="content" class="police3" contenteditable="true"></div>
-<button id="policeBtn2" class="hidden police4">Change police</button>
 
+
+
+<div id="footer">
+    <button id="nightMode"><i class="material-icons">visibility</i></button>
+    <button id="policeBtn1" class="hidden police2">Title police</button>
+    <button id="policeBtn2" class="hidden police4">Content police</button>
+</div>
 
 <script src="app.js"></script>
 </body>
