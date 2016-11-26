@@ -1,0 +1,26 @@
+html {
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    color: #333;
+    font-weight: 100;
+    max-width: 50em;
+    margin: 0 auto;
+
+}
+
+div:focus{
+    outline: none;
+}
+
+#heading{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 48px;
+    padding-top: 30px;
+}
+
+#content{
+    padding-top: 10px;
+    font-size: 24px;
+}
